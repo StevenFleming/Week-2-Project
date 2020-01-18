@@ -37,8 +37,9 @@ $(document).ready(function(event) {
     else if (ques1 + ques2 +ques3 +ques4 +ques5 <32) {
     $("#php").show();
     }
-    else if (ques1 + ques2 +ques3 +ques4 +ques5 <40) {
+    else if (ques1 + ques2 +ques3 +ques4 +ques5 <=40) {
     $("#python").show();
+    
     }
   
   
