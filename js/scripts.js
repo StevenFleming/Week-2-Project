@@ -9,60 +9,44 @@ $(document).ready(function(event) {
 
 
 
-    if ( ques1 > 8) {
-    alert(" A number was inputted greater than 8")
+    if ( ques1 > 8 || ques2 > 8 || ques3 > 8 || ques4 > 8 || ques5 > 8) {
+      alert(" A number was inputted greater than 8")
     }
-    if ( ques2 > 8) {
-    alert(" A number was inputted greater than 8")
-    }
-    if ( ques3 > 8) {
-    alert(" A number was inputted greater than 8")
-    }
-    if ( ques4 > 8) {
-    alert(" A number was inputted greater than 8")
-    }
-    if ( ques5 > 8) {
-    alert(" A number was inputted greater than 8")
-    }
-
     else if (ques1 + ques2 +ques3 +ques4 +ques5 < 8) {
-    $("#swift").show();
-    $("#ruby").hide();
-    $("#java").hide();
-    $("#php").hide();
-    $("#python").hide();
+      $("#swift").show();
+      $("#ruby").hide();
+      $("#java").hide();
+      $("#php").hide();
+      $("#python").hide();
     }
     else if (ques1 +ques2 +ques3 +ques4 +ques5 < 16) {
-    $('#ruby').show();
-    $("#swift").hide();
-    $("#java").hide();
-    $("#php").hide();
-    $("#python").hide();
+      $('#ruby').show();
+      $("#swift").hide();
+      $("#java").hide();
+      $("#php").hide();
+      $("#python").hide();
     }
    else if (ques1 +ques2 +ques3 +ques4 +ques5 < 24) {
-    $("#java").show();
-    $('#ruby').hide();
-    $("#swift").hide();
-    $("#php").hide();
-    $("#python").hide();
+      $("#java").show();
+      $('#ruby').hide();
+      $("#swift").hide();
+      $("#php").hide();
+      $("#python").hide();
     }
     else if (ques1 + ques2 +ques3 +ques4 +ques5 <32) {
-    $("#php").show();
-    $("#java").hide();
-    $('#ruby').hide();
-    $("#swift").hide();
-    $("#python").hide();
+      $("#php").show();
+      $("#java").hide();
+      $('#ruby').hide();
+      $("#swift").hide();
+      $("#python").hide();
     }
     else if (ques1 + ques2 +ques3 +ques4 +ques5 <=40) {
-    $("#python").show();
-    $("#php").hide();
-    $("#java").hide();
-    $('#ruby').hide();
-    $("#swift").hide();
-    
+      $("#python").show();
+      $("#php").hide();
+      $("#java").hide();
+      $('#ruby').hide();
+      $("#swift").hide();
     }
-  
-  
     event.preventDefault();
     });
   });
