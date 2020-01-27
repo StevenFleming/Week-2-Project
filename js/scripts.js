@@ -27,18 +27,38 @@ $(document).ready(function(event) {
 
     else if (ques1 + ques2 +ques3 +ques4 +ques5 < 8) {
     $("#swift").show();
+    $("#ruby").hide();
+    $("#java").hide();
+    $("#php").hide();
+    $("#python").hide();
     }
     else if (ques1 +ques2 +ques3 +ques4 +ques5 < 16) {
-    $ ('#ruby').show();
+    $('#ruby').show();
+    $("#swift").hide();
+    $("#java").hide();
+    $("#php").hide();
+    $("#python").hide();
     }
    else if (ques1 +ques2 +ques3 +ques4 +ques5 < 24) {
     $("#java").show();
+    $('#ruby').hide();
+    $("#swift").hide();
+    $("#php").hide();
+    $("#python").hide();
     }
     else if (ques1 + ques2 +ques3 +ques4 +ques5 <32) {
     $("#php").show();
+    $("#java").hide();
+    $('#ruby').hide();
+    $("#swift").hide();
+    $("#python").hide();
     }
     else if (ques1 + ques2 +ques3 +ques4 +ques5 <=40) {
     $("#python").show();
+    $("#php").hide();
+    $("#java").hide();
+    $('#ruby').hide();
+    $("#swift").hide();
     
     }
   
